@@ -35,4 +35,9 @@ return [
         ],
     ],
 
+    'piprapay' => [
+        'key' => env('PIPRAPAY_API_KEY'),
+        'url' => env('PIPRAPAY_BASE_URL', 'https://sandbox.piprapay.com'),
+    ],
+
 ];
